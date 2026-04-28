@@ -1,0 +1,220 @@
+You are a senior UI/UX engineer.
+I am building a frontend-only gift-voucher marketplace using React + Tailwind CSS + DaisyUI.
+
+I will upload screenshots that show the visual direction and ideas.
+Your job is to recreate a NEVER-BEFORE-SEEN, extremely attractive, premium light-mode UI inspired by the screenshots, but even better.
+
+🎨 STRICT UI REQUIREMENTS
+
+You MUST follow these rules:
+
+✔ Use ONLY
+
+Tailwind CSS classes
+
+DaisyUI components
+
+React components
+
+❌ DO NOT use:
+
+CSS files
+
+.module
+
+styled-components
+
+inline CSS
+
+external styles
+
+terminal or file-creation simulation
+
+Everything must be styled using pure Tailwind + DaisyUI.
+
+🌈 DESIGN GOAL
+
+Build a premium light-mode UI that is modern, aesthetic, and engaging:
+
+Rounded corners
+
+Soft shadows
+
+Pastel accent colors
+
+Clean typography
+
+High visual appeal
+
+Beautiful card designs
+
+Smooth subtle animations
+
+Professional marketplace look
+
+Extremely attractive hero sections
+
+UI that makes the user stay on the site
+
+Use the screenshots only as inspiration →
+the new UI must be more premium, more modern, more polished.
+
+🧭 PAGES TO CREATE
+1. Home Page
+
+Sticky navbar
+
+Large rounded search bar
+
+Hero section with illustration/product
+
+Promo / highlight card
+
+Featured voucher grid
+
+Footer
+
+2. All Brands Page
+
+Grid of brand cards
+
+Filters and search
+
+Dummy brand data
+
+3. Categories Page
+
+Category list
+
+Category-based voucher grid
+
+4. Offers Page
+
+Flash deals
+
+Discounts
+
+Offer badges
+
+Voucher cards
+
+5. Voucher Details Page
+
+Voucher image
+
+Multiple price options
+
+Fixed price display
+
+Description
+
+Ratings + review count
+
+“Add to Cart” button
+
+Suggested vouchers
+
+6. Cart Page
+
+List of items
+
+Quantity adjust buttons (frontend only)
+
+Price summary
+
+Checkout button
+
+7. Mobile + Tablet Responsive Designs
+
+Mobile navigation
+
+1-column grids
+
+Collapsible menus
+
+Sticky cart icon
+
+🧩 REUSABLE COMPONENTS TO GENERATE
+
+Header / Navbar
+
+SearchBar
+
+Hero
+
+PromoCard
+
+VoucherCard
+
+BrandCard
+
+CategoryCard
+
+OfferCard
+
+VoucherGrid
+
+CartDrawer
+
+Footer
+
+All using Tailwind + DaisyUI ONLY.
+
+🧪 DUMMY DATA REQUIREMENT
+
+Use static dummy JSON for:
+
+vouchers
+
+brands
+
+categories
+
+offers
+
+reviews
+
+No backend required.
+
+📦 FOLDER STRUCTURE
+
+Use something like:
+
+src/
+  components/
+    header/
+    hero/
+    cards/
+    vouchers/
+    categories/
+    brands/
+    cart/
+    ui/
+  pages/
+    Home.jsx
+    Brands.jsx
+    Categories.jsx
+    Offers.jsx
+    VoucherDetails.jsx
+    Cart.jsx
+  data/
+    vouchers.js
+    brands.js
+    categories.js
+    offers.js
+  App.jsx
+  main.jsx
+
+📸 WHAT YOU MUST OUTPUT
+
+For each page:
+
+A short UI mockup description
+
+Full JSX components using Tailwind + DaisyUI
+
+All responsive behaviors
+
+Clean professional layout
+
+NO CSS files

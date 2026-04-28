@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow private paths
+Disallow: /admin
+Disallow: /config
+Disallow: /api
+
+# Hostname and Sitemap
+Sitemap: https://gift360.io/sitemap.xml

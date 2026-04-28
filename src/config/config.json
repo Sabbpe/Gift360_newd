@@ -1,0 +1,53 @@
+{
+  "header": {
+    "enabled": true,
+    "logo": {
+      "enabled": true
+    },
+    "navigation": {
+      "enabled": true,
+      "links": [
+        { "label": "Home", "href": "/", "enabled": true },
+        { "label": "Brands", "href": "/brands", "enabled": true },
+        { "label": "Categories", "href": "/categories", "enabled": false},
+        { "label": "Offers", "href": "/offers", "enabled": false }
+      ]
+    },
+    "searchBar": {
+      "enabled": true
+    },
+    "locationButton": {
+      "enabled": true
+    },
+    "authButton": {
+      "enabled": true
+    },
+    "themeToggle": {
+      "enabled": true
+    },
+    "cart": {
+      "enabled": true
+    },
+    "marquee": {
+      "enabled": true
+    }
+  },
+  "homePage": {
+    "enabled": true,
+    "hero": {
+      "enabled": true
+    },
+    "hotDeals": {
+      "enabled": true
+    },
+    "promoCard": {
+      "enabled": true
+    },
+    "featuredVouchers": {
+      "enabled": false
+    }
+  },
+  "footer": {
+    "enabled": true
+  }
+}

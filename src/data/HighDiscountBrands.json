@@ -1,0 +1,821 @@
+[
+  {
+    "id":"901c9da0-d1e8-4f8d-a43a-669204e595aa",
+    "brand_code":"EGVGBPRI001",
+    "brand_name":"Amazon Prime Lite Edition-Giftbig",
+    "category":"E-Commerce",
+    "Discount":8.0
+  },
+  {
+    "id":"85804551-052d-40c9-a62c-66294e1e8783",
+    "brand_code":"CromaAoc4Qjn7INRU6eWH",
+    "brand_name":"Croma",
+    "category":"E-Commerce",
+    "Discount":2.5
+  },
+  {
+    "id":"03b3e29f-9c48-46ff-b7cd-038af7648187",
+    "brand_code":"FernsNPetalsexQfDcyfUkvLKlk8",
+    "brand_name":"Ferns N Petals",
+    "category":"E-Commerce",
+    "Discount":11.0
+  },
+  {
+    "id":"cc684390-bc0a-4c9e-a9ca-97178c7999ac",
+    "brand_code":"EGVGBFSTC001",
+    "brand_name":"FirstCry E-Gift Voucher",
+    "category":"E-Commerce",
+    "Discount":6.0
+  },
+  {
+    "id":"909edcc3-8d7b-4e3c-9917-834c378819a8",
+    "brand_code":"FreecultrBDZ0i7R1PUWYH2ia",
+    "brand_name":"Freecultr",
+    "category":"E-Commerce",
+    "Discount":20.5
+  },
+  {
+    "id":"008dead0-0096-41a7-b8aa-58cdb87fa1b4",
+    "brand_code":"Q3Z8mHJalLBVIu",
+    "brand_name":"Lenskart Gift Card",
+    "category":"E-Commerce",
+    "Discount":12.5
+  },
+  {
+    "id":"98d6328d-73ac-4776-a15a-d1bb4599f2b1",
+    "brand_code":"TitanUXfPtyM9YzbIsW7W",
+    "brand_name":"Titan",
+    "category":"E-Commerce",
+    "Discount":7.5
+  },
+  {
+    "id":"9efe244f-412d-49ef-affe-5c1335a19ba5",
+    "brand_code":"RelianceJioMart2g72mTWnDrCInViV",
+    "brand_name":"Reliance Jio Mart",
+    "category":"E-Commerce",
+    "Discount":3.75
+  },
+  {
+    "id":"85804551-052d-40c9-a62c-66294e1e8783",
+    "brand_code":"CromaAoc4Qjn7INRU6eWH",
+    "brand_name":"Croma",
+    "category":"E-Commerce",
+    "Discount":2.5
+  },
+  {
+    "id":"cecd0409-b138-463c-b708-bd1be05cab8a",
+    "brand_code":"Q3tkruxTB79baW",
+    "brand_name":"Zomato E-Gift Card",
+    "category":"E-Commerce",
+    "Discount":2.25
+  },
+  {
+    "id":"cc352cb7-aec9-40c1-903a-20b0cdf68c7f",
+    "brand_code":"EGVGBBMSCLPS001",
+    "brand_name":"BookMyShow Instant Voucher",
+    "category":"Entertainment",
+    "Discount":4.0
+  },
+  {
+    "id":"bca173a1-a308-49bd-b9bd-fe0a9831f6a4",
+    "brand_code":"DiscoveryPlusYXOUC80ZFTAV4Uzn",
+    "brand_name":"Discovery Plus",
+    "category":"Entertainment",
+    "Discount":20.5
+  },
+  {
+    "id":"292b5fb0-6a00-44da-aefd-29626850056f",
+    "brand_code":"EGCGBLUH001",
+    "brand_name":"Lulu Hypermarket E-Gift Cards",
+    "category":"Entertainment",
+    "Discount":1.75
+  },
+  {
+    "id":"9236ffde-7eb3-49b6-bb88-605452536ffd",
+    "brand_code":"PVRGgerXyr63MoeJH9I",
+    "brand_name":"PVR",
+    "category":"Entertainment",
+    "Discount":12.0
+  },
+  {
+    "id":"df144b2f-6998-4c5f-853a-0f0e698d0969",
+    "brand_code":"Skullcandy0FggFidygF65BMmZ",
+    "brand_name":"Skullcandy",
+    "category":"Entertainment",
+    "Discount":11.0
+  },
+  {
+    "id":"229acd9c-e8dc-495b-88e5-ce3deeb40e1e",
+    "brand_code":"ZEE5hutuDUttteuOUL7R",
+    "brand_name":"ZEE5",
+    "category":"Entertainment",
+    "Discount":18.5
+  },
+  {
+    "id":"c1b8db8d-ab38-414d-b20d-ff5654440335",
+    "brand_code":"Auric2XPtJQxzDCn76pjY",
+    "brand_name":"Auric",
+    "category":"Fashion & Lifestyle",
+    "Discount":33.0
+  },
+  {
+    "id":"8b233dac-1014-4368-a367-2604aa79aa07",
+    "brand_code":"BeyoungCH1DBeC7KR3fhkGk",
+    "brand_name":"Beyoung",
+    "category":"Fashion & Lifestyle",
+    "Discount":23.0
+  },
+  {
+    "id":"dd51fc60-c5d4-487e-acd1-bb82eaf824cb",
+    "brand_code":"HammerSvE7CzPPc6E0WChs",
+    "brand_name":"Hammer",
+    "category":"Fashion & Lifestyle",
+    "Discount":23.0
+  },
+  {
+    "id":"dae215a7-00b5-4daf-9a1f-bcbe0668f6c2",
+    "brand_code":"DailyObjectsBt73Ndylr93H6Fh9",
+    "brand_name":"Daily Objects",
+    "category":"Fashion & Lifestyle",
+    "Discount":20.5
+  },
+  {
+    "id":"80090de7-8082-43e1-8c75-5416107e35f4",
+    "brand_code":"SleepwellnUnW64WOtH2RcweR",
+    "brand_name":"Sleepwell",
+    "category":"Fashion & Lifestyle",
+    "Discount":20.5
+  },
+  {
+    "id":"335f53f7-68f6-4eb0-be45-e571c1044cf9",
+    "brand_code":"BataQFIm94RD31hzEYSC",
+    "brand_name":"Bata",
+    "category":"Fashion & Lifestyle",
+    "Discount":12.5
+  },
+  {
+    "id":"f6e47733-1048-425c-b16a-3017a201ff8e",
+    "brand_code":"Celioix2MQfHrA5w07qWt",
+    "brand_name":"Celio",
+    "category":"Fashion & Lifestyle",
+    "Discount":12.5
+  },
+  {
+    "id":"3533de6c-85cc-417e-a8f3-f801cb130cde",
+    "brand_code":"ChumbakKnF8XCjYslOrhHTq",
+    "brand_name":"Chumbak",
+    "category":"Fashion & Lifestyle",
+    "Discount":12.5
+  },
+  {
+    "id":"8449039f-557d-48ca-80e6-5878aa982f76",
+    "brand_code":"EGCGBMC001",
+    "brand_name":"MOTHER CARE-Luxe E-Gift Card",
+    "category":"Fashion & Lifestyle",
+    "Discount":12.5
+  },
+  {
+    "id":"fa56b9ae-bd55-4853-ab3d-f2bd4df5a551",
+    "brand_code":"EGCGBARE001",
+    "brand_name":"Armani Exchange-Luxe E-Gift Card",
+    "category":"Fashion & Lifestyle",
+    "Discount":12.0
+  },
+  {
+    "id":"d2c3d98b-b8b3-44ae-a6b5-ccb5ab796b48",
+    "brand_code":"EGCGBRBLH001",
+    "brand_name":"HAMLEYS - LUXE E-Gift Card",
+    "category":"Fashion & Lifestyle",
+    "Discount":12.0
+  },
+  {
+    "id":"0e3e46ce-c61e-4b35-81d7-1ccc3695327a",
+    "brand_code":"EGCGBUL002",
+    "brand_name":"Urban Ladder E-Gift Card",
+    "category":"Fashion & Lifestyle",
+    "Discount":12.0
+  },
+  {
+    "id":"0b40a0b2-e69e-4b10-8b76-698df1355e02",
+    "brand_code":"MarksSpencerzc5OO1MIf5HWXFkJ",
+    "brand_name":"Marks & Spencer",
+    "category":"Fashion & Lifestyle",
+    "Discount":11.0
+  },
+  {
+    "id":"787d6a0b-1da0-4c8f-8c9f-ea5d8c11a2fe",
+    "brand_code":"ONLYfmkYbe38kuLeAgKn",
+    "brand_name":"Only",
+    "category":"Fashion & Lifestyle",
+    "Discount":11.0
+  },
+  {
+    "id":"29bb687b-2061-4940-8565-25bb88a50f71",
+    "brand_code":"AureliabImEdd6PO7PaMQyF",
+    "brand_name":"Aurelia",
+    "category":"Fashion & Lifestyle",
+    "Discount":10.0
+  },
+  {
+    "id":"021fefe4-4371-4a90-ac7c-a1a7e81267ac",
+    "brand_code":"EGCGBWSS001",
+    "brand_name":"Westside E-Gift Card",
+    "category":"Fashion & Lifestyle",
+    "Discount":9.5
+  },
+  {
+    "id":"de8af09d-ff6d-4f03-b1fe-51609c1b954e",
+    "brand_code":"EGCGBHNG001",
+    "brand_name":"Health and Glow E-Gift Card",
+    "category":"Fashion & Lifestyle",
+    "Discount":9.0
+  },
+  {
+    "id":"c52b823a-213c-49f5-acc0-d41114ebc6ec",
+    "brand_code":"EGCGBLVSS001",
+    "brand_name":"Levi's E-Gift Card",
+    "category":"Fashion & Lifestyle",
+    "Discount":9.0
+  },
+  {
+    "id":"991b56ac-3b39-49b2-b662-5b6858748653",
+    "brand_code":"EGVGBLNCL001",
+    "brand_name":"Linen Club E-Gift Card",
+    "category":"Fashion & Lifestyle",
+    "Discount":9.0
+  },
+  {
+    "id":"fc1e347e-b7fb-47e0-bf2f-9831e8b7e85b",
+    "brand_code":"EGCGBPLD001",
+    "brand_name":"Polaroid E-Gift Card",
+    "category":"Fashion & Lifestyle",
+    "Discount":9.0
+  },
+  {
+    "id":"aad7c8c8-22e2-4933-8ff4-016b13532c15",
+    "brand_code":"TheRaymondShopQRT3d6cyTWnf7e3C",
+    "brand_name":"The Raymond Shop",
+    "category":"Fashion & Lifestyle",
+    "Discount":9.0
+  },
+  {
+    "id":"0ffb3ea5-f4e5-4139-97b7-27c04c1abced",
+    "brand_code":"EGCGBWS002",
+    "brand_name":"Westside E-Gift Card-B2C",
+    "category":"Fashion & Lifestyle",
+    "Discount":9.0
+  },
+  {
+    "id":"971280e2-031e-4274-b0ab-40f2034e02f3",
+    "brand_code":"FastrackMmaduOQnMvPY0pvt",
+    "brand_name":"Fastrack",
+    "category":"Fashion & Lifestyle",
+    "Discount":8.0
+  },
+  {
+    "id":"7c3e80af-168a-4c8a-b99a-8d37943986b1",
+    "brand_code":"HeliosNzGDEb6jJuEU9tTL",
+    "brand_name":"Helios",
+    "category":"Fashion & Lifestyle",
+    "Discount":8.0
+  },
+  {
+    "id":"f7d7eb9a-934d-4895-adcc-30e2b1347624",
+    "brand_code":"Pantaloons5hU0uk9kgE7Gj7Ye",
+    "brand_name":"Pantaloons",
+    "category":"Fashion & Lifestyle",
+    "Discount":8.0
+  },
+  {
+    "id":"3467ece9-21e2-4172-925f-df58ac8e22b1",
+    "brand_code":"EGCGBRB001",
+    "brand_name":"Ray-Ban E-Gift Cards",
+    "category":"Fashion & Lifestyle",
+    "Discount":8.0
+  },
+  {
+    "id":"2d3ebada-ec06-4cee-b456-d02ce4056345",
+    "brand_code":"EGCGBHML002",
+    "brand_name":"Hamleys E-Gift Card-Luxe E-Gift Card",
+    "category":"Fashion & Lifestyle",
+    "Discount":6.0
+  },
+  {
+    "id":"a5e81d66-b2b3-4d00-83ac-e0b18148e07e",
+    "brand_code":"DecathlonJQsSGZ5BGxhtlysC",
+    "brand_name":"Decathlon",
+    "category":"Fashion & Lifestyle",
+    "Discount":4.5
+  },
+  {
+    "id":"43d5bb19-322a-4213-b4b3-d451f412d58e",
+    "brand_code":"SpencersRetailJimsEyDxTB1O9Hsq",
+    "brand_name":"Spencer's Retail",
+    "category":"Fashion & Lifestyle",
+    "Discount":4.5
+  },
+  {
+    "id":"f31b7c60-2cd5-4509-ab68-f42759963b7a",
+    "brand_code":"RelianceDigitalIhprgE3yn48ptqYl",
+    "brand_name":"Reliance Digital",
+    "category":"Fashion & Lifestyle",
+    "Discount":3.75
+  },
+  {
+    "id":"12030312-4334-446a-8b70-d27e2dd2ce49",
+    "brand_code":"Q3ZT90XbviKmpk",
+    "brand_name":"Dominos Pizza",
+    "category":"Food & Beverages",
+    "Discount":17.0
+  },
+  {
+    "id":"4394f300-f460-4e30-a7b8-e0b1ee13dd18",
+    "brand_code":"WonderchefWkZ4LDebAUFKiJ4d",
+    "brand_name":"Wonderchef",
+    "category":"Food & Beverages",
+    "Discount":14.5
+  },
+  {
+    "id":"7b4c14cf-7e9e-4b7e-865c-0d0e2317601f",
+    "brand_code":"Q3ZT20GCuA8tTZ",
+    "brand_name":"Biryani By Kilo E-Gift Card",
+    "category":"Food & Beverages",
+    "Discount":14.0
+  },
+  {
+    "id":"54cc551e-270a-4de4-9b79-fe26ec6acd55",
+    "brand_code":"BaskinRobbinseUScNtt01nKFwu5p",
+    "brand_name":"Baskin Robbins",
+    "category":"Food & Beverages",
+    "Discount":12.5
+  },
+  {
+    "id":"f120127b-a174-4274-900f-f9d13d53ea59",
+    "brand_code":"Machaane3FcnF4Q25cJbCEg",
+    "brand_name":"Machaan",
+    "category":"Food & Beverages",
+    "Discount":12.5
+  },
+  {
+    "id":"0c17f183-0041-4249-aa21-1a5a315ad678",
+    "brand_code":"MainlandChinaNGzXGziwb2zRBKFq",
+    "brand_name":"Mainland China",
+    "category":"Food & Beverages",
+    "Discount":12.5
+  },
+  {
+    "id":"f3bc9b75-4b84-4bdf-88a8-7dbb5ad8402e",
+    "brand_code":"SIGREEmtlZTwTZicxG7vOa",
+    "brand_name":"SIGREE",
+    "category":"Food & Beverages",
+    "Discount":12.5
+  },
+  {
+    "id":"04e61a1d-eae1-4dd7-9a9b-4c81b57bf8bf",
+    "brand_code":"SweetBengalQYSbwqeK5gDNQdDJ",
+    "brand_name":"Sweet Bengal",
+    "category":"Food & Beverages",
+    "Discount":12.5
+  },
+  {
+    "id":"155301eb-31de-4bb9-8118-c24cc6029c02",
+    "brand_code":"EGCGBTBS001",
+    "brand_name":"Bikanervala E-Gift Card",
+    "category":"Food & Beverages",
+    "Discount":12.0
+  },
+  {
+    "id":"f68f16db-a13f-4d7c-b855-a9a60e7065ab",
+    "brand_code":"FabHotelsTycDQga2JxyHDztA",
+    "brand_name":"Fab Hotels",
+    "category":"Food & Beverages",
+    "Discount":12.0
+  },
+  {
+    "id":"9a3be374-430f-4f12-8fe6-40fbf83b70c1",
+    "brand_code":"EGCGBTC001",
+    "brand_name":"Toscano E-Gift Card",
+    "category":"Food & Beverages",
+    "Discount":12.0
+  },
+  {
+    "id":"cbadade6-45a3-41e1-bfad-f29d949662ef",
+    "brand_code":"EGCGBETSR005",
+    "brand_name":"Behrouz Biryani E-Gift Card - B2C",
+    "category":"Food & Beverages",
+    "Discount":10.0
+  },
+  {
+    "id":"b1754376-8684-46d8-996e-38980ea7d147",
+    "brand_code":"PrestigeHAdpYcEZORUrRy2s",
+    "brand_name":"Prestige",
+    "category":"Food & Beverages",
+    "Discount":10.0
+  },
+  {
+    "id":"0b056c54-3f18-4c55-b93b-4bfc1508e68d",
+    "brand_code":"Q3Z00KJKk6V36H",
+    "brand_name":"Third Wave Coffee E-Gift Card",
+    "category":"Food & Beverages",
+    "Discount":10.0
+  },
+  {
+    "id":"3b1d4938-5305-421c-89b8-69270f01f98f",
+    "brand_code":"BarbequeNationcw586f31ZC3RBrWj",
+    "brand_name":"Barbeque Nation",
+    "category":"Food & Beverages",
+    "Discount":7.0
+  },
+  {
+    "id":"56645d08-3166-4bcd-9c01-e346b1459972",
+    "brand_code":"EGVGBSTB001",
+    "brand_name":"Starbucks E-Gift Voucher",
+    "category":"Food & Beverages",
+    "Discount":6.0
+  },
+  {
+    "id":"911f5217-f35b-41fc-8cc4-7b59cd65b217",
+    "brand_code":"EGCGBPOL001",
+    "brand_name":"Polar Bear E-Gift Cards",
+    "category":"Food & Beverages",
+    "Discount":4.5
+  },
+  {
+    "id":"d4903c09-a80b-44b1-a599-0cff8c79d2c7",
+    "brand_code":"EGCGBMCDGC001",
+    "brand_name":"McDonald\u00e2\u20ac\u2122s McCafe Membership Card - Gold",
+    "category":"Food & Beverages",
+    "Discount":4.0
+  },
+  {
+    "id":"4466a77e-e46f-4f61-8587-7e4eba0c56b5",
+    "brand_code":"EGCGBMCDPC001",
+    "brand_name":"McDonald\u00e2\u20ac\u2122s McCafe Membership Card - Platinum",
+    "category":"Food & Beverages",
+    "Discount":4.0
+  },
+  {
+    "id":"6f1314f4-4e69-417c-ac31-25588ffec216",
+    "brand_code":"EGCGBMCDSC001",
+    "brand_name":"McDonald\u00e2\u20ac\u2122s McCafe Membership Card - Silver",
+    "category":"Food & Beverages",
+    "Discount":4.0
+  },
+  {
+    "id":"c0e20c17-50c9-4177-81cc-e318fa316cfe",
+    "brand_code":"EGCGBFM001",
+    "brand_name":"FreshMenu E-Gift Card",
+    "category":"Food & Beverages",
+    "Discount":3.75
+  },
+  {
+    "id":"539ab68c-f61a-45f8-9609-53c7cd77d750",
+    "brand_code":"EGCGBBBS001",
+    "brand_name":"Bigbasket E-Gift Card",
+    "category":"Food & Beverages",
+    "Discount":3.5
+  },
+  {
+    "id":"fb338998-1ea2-478a-90c7-5ee47b5bb8dc",
+    "brand_code":"GENIMGECR1090-30",
+    "brand_name":"Genshin Impact 1090 Genesis Crystals",
+    "category":"Gaming",
+    "Discount":13.5
+  },
+  {
+    "id":"7ecaa100-e5d0-4ef0-9145-1958a27c1aac",
+    "brand_code":"HONSROS1090-52",
+    "brand_name":"Honkai: Star Rail 1090 Oneiric Shard",
+    "category":"Gaming",
+    "Discount":10.5
+  },
+  {
+    "id":"a49f37ed-eef3-475e-97df-f93a4a5f712b",
+    "brand_code":"MOBLEDIA172-33",
+    "brand_name":"Mobile Legends 172 Diamonds",
+    "category":"Gaming",
+    "Discount":10.5
+  },
+  {
+    "id":"37f11a66-6330-44c0-9c63-dcd247ccc326",
+    "brand_code":"ZENZOZEMO1090-45",
+    "brand_name":"Zenless Zone Zero 1090 MONOCHROME",
+    "category":"Gaming",
+    "Discount":10.5
+  },
+  {
+    "id":"edeb8ccd-ee56-4f99-b896-7c4baa5eb095",
+    "brand_code":"STBETHDOOMETERNALIND",
+    "brand_name":"[Steam] Doom Eternal  IND",
+    "category":"Gaming",
+    "Discount":9.0
+  },
+  {
+    "id":"e92bd1ae-fd23-487e-9922-b8efb891d749",
+    "brand_code":"NINTUSCLASRACEL",
+    "brand_name":"Nintendo US - Classic Racers Elite",
+    "category":"Gaming",
+    "Discount":9.0
+  },
+  {
+    "id":"abe5aa4b-4989-43bb-b80a-07d5044ccc7e",
+    "brand_code":"EsteleUeainMi47NNRzgTE",
+    "brand_name":"Estele",
+    "category":"Jewellery",
+    "Discount":18.5
+  },
+  {
+    "id":"50da80a9-0146-44ef-92a3-10ce71017f04",
+    "brand_code":"EGCGBGJ001",
+    "brand_name":"Giva Jewellery E-Gift Card",
+    "category":"Jewellery",
+    "Discount":14.0
+  },
+  {
+    "id":"2286c3e8-d8ea-4576-a62e-009481c3e9fc",
+    "brand_code":"EGCGBSUDI001",
+    "brand_name":"Surat Diamonds Main E-Gift Card",
+    "category":"Jewellery",
+    "Discount":12.5
+  },
+  {
+    "id":"9b9892ca-6537-4e36-a603-9fd1e43162a5",
+    "brand_code":"EGCGBORZ001",
+    "brand_name":"Ornaz E-Gift Card",
+    "category":"Jewellery",
+    "Discount":10.5
+  },
+  {
+    "id":"9f5f8c2c-b040-4d2d-8dd0-02f1ca98f7c1",
+    "brand_code":"CandereDiamondJewelleryZIf20Gi1iRAkVypP",
+    "brand_name":"Candere Diamond Jewellery",
+    "category":"Jewellery",
+    "Discount":7.5
+  },
+  {
+    "id":"81540050-6dac-4655-b5ab-f3c4b61081c2",
+    "brand_code":"EGCGBKJ014",
+    "brand_name":"Kalyan Diamond E-Gift Card",
+    "category":"Jewellery",
+    "Discount":6.8
+  },
+  {
+    "id":"91d95f90-1848-444a-9d19-9dfcef524677",
+    "brand_code":"EGCGBAHJ001",
+    "brand_name":"Euphoria Gold Coin E-Gift Card",
+    "category":"Jewellery",
+    "Discount":5.0
+  },
+  {
+    "id":"c2594ff8-992e-4660-b62d-5e1cdb23e090",
+    "brand_code":"EGCGBGJ002",
+    "brand_name":"Giva Jewellery Gold E-Gift Card",
+    "category":"Jewellery",
+    "Discount":5.0
+  },
+  {
+    "id":"0dae5e44-60f6-4a75-83c6-9f0a39426693",
+    "brand_code":"TEGO7llrql5Q0fiKNosM",
+    "brand_name":"TEGO",
+    "category":"Sports & Footwears",
+    "Discount":16.5
+  },
+  {
+    "id":"e39fb256-0ca9-4937-9485-84fc3a997630",
+    "brand_code":"HushPuppiesAnIkWsDt6y90HDDV",
+    "brand_name":"Hush Puppies",
+    "category":"Sports & Footwears",
+    "Discount":12.5
+  },
+  {
+    "id":"d18d83fb-7e97-4c63-b8bc-b286b09e9f79",
+    "brand_code":"Timezone7gWVos8BkWFNR9u8",
+    "brand_name":"Timezone",
+    "category":"Sports & Footwears",
+    "Discount":12.0
+  },
+  {
+    "id":"c9165750-121a-4f96-8b5a-709d865d4d05",
+    "brand_code":"EGCGBPUM001",
+    "brand_name":"Puma E-Gift Voucher",
+    "category":"Sports & Footwears",
+    "Discount":10.0
+  },
+  {
+    "id":"2aef621b-fd9b-471e-891c-0fb154757a95",
+    "brand_code":"SkechersQFyLMZ9NGAsfKQRa",
+    "brand_name":"Skechers",
+    "category":"Sports & Footwears",
+    "Discount":10.0
+  },
+  {
+    "id":"473d1bab-7d98-4bb5-9986-103f4c28dfe5",
+    "brand_code":"WoodlandPEFEFfzJbLQvVhXL",
+    "brand_name":"Woodland",
+    "category":"Sports & Footwears",
+    "Discount":10.0
+  },
+  {
+    "id":"f7b683c7-bb60-4c21-be38-aa4b35aebd34",
+    "brand_code":"AssemblyQtGgQ61nRzS8Ayux",
+    "brand_name":"Assembly",
+    "category":"Tour & Travel",
+    "Discount":15.0
+  },
+  {
+    "id":"a9a9fd3f-546a-4bde-aa70-c94bcdd791c2",
+    "brand_code":"EGCGBSH001",
+    "brand_name":"Sterling Holidays E-Gift Card",
+    "category":"Tour & Travel",
+    "Discount":12.0
+  },
+  {
+    "id":"d3987485-59e4-452d-a822-b87d460044cb",
+    "brand_code":"EGCGBCTH006",
+    "brand_name":"Cleartrip Hotels E-Gift Card-B2C",
+    "category":"Tour & Travel",
+    "Discount":11.0
+  },
+  {
+    "id":"da9e4cef-42b7-41f5-8767-1d0a8ce0c946",
+    "brand_code":"EGCGBMMTHOL001",
+    "brand_name":"Makemytrip Holiday E-Gift Card",
+    "category":"Tour & Travel",
+    "Discount":9.0
+  },
+  {
+    "id":"a9575f2a-a0ed-451c-8cdc-7320a750d172",
+    "brand_code":"EGCGBPCHR001",
+    "brand_name":"The Postcard Hotels E-Gift Cards",
+    "category":"Tour & Travel",
+    "Discount":9.0
+  },
+  {
+    "id":"67b4160e-825d-4f53-b39f-346b18fcff7c",
+    "brand_code":"EGCGBHHB001",
+    "brand_name":"Yatra Hotels & Holidays Voucher",
+    "category":"Tour & Travel",
+    "Discount":9.0
+  },
+  {
+    "id":"4cbe4bcb-b9df-4e39-9883-7ddbbfe7de65",
+    "brand_code":"TajHotelsuuGp94zWv8aBX6FW",
+    "brand_name":"Taj Experiences",
+    "category":"Tour & Travel",
+    "Discount":8.25
+  },
+  {
+    "id":"bb215b96-cd14-4c19-9920-801100333895",
+    "brand_code":"EGCGBMTHI002",
+    "brand_name":"Marriott Hotels India E-Gift Card - B2C",
+    "category":"Tour & Travel",
+    "Discount":7.0
+  },
+  {
+    "id":"2946e479-39f5-4440-82e7-90f19cfd5a6b",
+    "brand_code":"EGCGBMARI002",
+    "brand_name":"Marriott India Egift Card-Dining Variant 1-B2C",
+    "category":"Tour & Travel",
+    "Discount":7.0
+  },
+  {
+    "id":"01403bcb-8693-46e3-8580-b0997d1b2f91",
+    "brand_code":"EGCGBMARI004",
+    "brand_name":"Marriott India Egift Card-Dining Variant 2-B2C",
+    "category":"Tour & Travel",
+    "Discount":7.0
+  },
+  {
+    "id":"8c5f9555-42b6-41e6-9f28-1bc81ce2cefc",
+    "brand_code":"EGCGBMARI006",
+    "brand_name":"Marriott India Egift Card-SPA Variant-B2C",
+    "category":"Tour & Travel",
+    "Discount":7.0
+  },
+  {
+    "id":"c45d6098-3ba7-42d3-aa5b-cf7d74c37b69",
+    "brand_code":"TRUEFITTHILL6mc6O17hoWZEyxGE",
+    "brand_name":"TRUEFITT & HILL",
+    "category":"Wellness & Beauty",
+    "Discount":23.0
+  },
+  {
+    "id":"f944cf3d-d1c2-469d-b607-65241af82da9",
+    "brand_code":"FITPASS47fT158bQo1ofYHK",
+    "brand_name":"FITPASS",
+    "category":"Wellness & Beauty",
+    "Discount":20.5
+  },
+  {
+    "id":"47d4bd62-2637-4b00-9586-644fe81d71d7",
+    "brand_code":"FinuSmartSurakshah9Tb8VePO2qIUmyG",
+    "brand_name":"FinuSmart Suraksha",
+    "category":"Wellness & Beauty",
+    "Discount":16.0
+  },
+  {
+    "id":"98ae2bba-1b89-48be-92ee-343eb1c412eb",
+    "brand_code":"EGCGBMYG001",
+    "brand_name":"MyGlamm E-Gift Cards",
+    "category":"Wellness & Beauty",
+    "Discount":15.0
+  },
+  {
+    "id":"00e27e34-0404-4412-935d-0db124ff7b81",
+    "brand_code":"SmileFoundationPAtK6zd6JA4RZb7h",
+    "brand_name":"Smile Foundation",
+    "category":"Wellness & Beauty",
+    "Discount":15.0
+  },
+  {
+    "id":"f19a6212-4f0d-4a07-a35e-463f379eba74",
+    "brand_code":"EGCGBFINS001",
+    "brand_name":"Finusmart E-Gift Card",
+    "category":"Wellness & Beauty",
+    "Discount":14.5
+  },
+  {
+    "id":"7557736f-7148-45ac-8d56-6c5a1fbb8b0f",
+    "brand_code":"TheManCompanywGKQRT4XceblXbRy",
+    "brand_name":"The Man Company",
+    "category":"Wellness & Beauty",
+    "Discount":14.5
+  },
+  {
+    "id":"2e58e500-a696-4207-a123-fa7b1a817d8e",
+    "brand_code":"EGCGBBCR001",
+    "brand_name":"BodyCraft E-Gift Card",
+    "category":"Wellness & Beauty",
+    "Discount":12.0
+  },
+  {
+    "id":"afa2e507-a1c8-459b-850c-9100341e8301",
+    "brand_code":"GNCJr1Dh4H0yjqHeinu",
+    "brand_name":"GNC",
+    "category":"Wellness & Beauty",
+    "Discount":12.0
+  },
+  {
+    "id":"1df697f4-09e2-4fad-a86c-6211878ba1eb",
+    "brand_code":"MamaearthWJALwyfgmJj4z0De",
+    "brand_name":"Mamaearth",
+    "category":"Wellness & Beauty",
+    "Discount":12.0
+  },
+  {
+    "id":"758f4b9d-29af-4fcd-b1e9-c089818741e0",
+    "brand_code":"SimpleqVHHqQ2CzBIYobAP",
+    "brand_name":"Simple",
+    "category":"Wellness & Beauty",
+    "Discount":12.0
+  },
+  {
+    "id":"517cac35-ab28-4c7f-97d4-1da1982e528e",
+    "brand_code":"SBP-APL",
+    "brand_name":"Apollo",
+    "category":"Wellness & Beauty",
+    "Discount":11.5
+  },
+  {
+    "id":"0708ed7a-e823-4fe2-aebd-f67c7824ae07",
+    "brand_code":"BrainGymJrnwwwxEUuKL0HyUK4",
+    "brand_name":"BrainGymJr",
+    "category":"Wellness & Beauty",
+    "Discount":11.0
+  },
+  {
+    "id":"fb178857-51a9-4c16-90eb-530055655495",
+    "brand_code":"HealthKartHPmCU3YbISIiXUeA",
+    "brand_name":"HealthKart",
+    "category":"Wellness & Beauty",
+    "Discount":11.0
+  },
+  {
+    "id":"669bf7b0-e412-4e1e-85de-1a00097fa06b",
+    "brand_code":"KamaAyurvedaiomxckNEkvimEMMG",
+    "brand_name":"Kama Ayurveda",
+    "category":"Wellness & Beauty",
+    "Discount":11.0
+  },
+  {
+    "id":"8c38d500-c791-4bd0-a2bc-fed859f94334",
+    "brand_code":"LoveBeautyandPlanetjC1NHU01ts2NOArw",
+    "brand_name":"Love Beauty & Planet",
+    "category":"Wellness & Beauty",
+    "Discount":11.0
+  },
+  {
+    "id":"0be11858-a63b-4c64-b0b6-ff1b4751f64d",
+    "brand_code":"NetmedsGVMmgmauhrpyuTak",
+    "brand_name":"Netmeds",
+    "category":"Wellness & Beauty",
+    "Discount":11.0
+  },
+  {
+    "id":"22678480-fe87-414e-b60c-44c5a6b68005",
+    "brand_code":"ORGANICINDIAi7I80BoHzsEBjnc8",
+    "brand_name":"ORGANIC INDIA",
+    "category":"Wellness & Beauty",
+    "Discount":11.0
+  }
+]
