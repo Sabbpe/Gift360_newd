@@ -566,3 +566,39 @@ input[type="search"]::-webkit-search-cancel-button { display: none; }
     animation: none !important;
   }
 }
+
+/* Compatibility aliases for older Gift360 pages */
+.g-header-gradient {
+  background: linear-gradient(180deg, hsl(252 80% 58%) 0%, hsl(252 70% 50%) 100%);
+}
+
+.shadow-g-card {
+  box-shadow: 0 8px 24px -8px hsl(252 50% 30% / 0.18);
+}
+
+.shadow-g-card-lg {
+  box-shadow:
+    0 18px 40px -16px hsl(252 50% 22% / 0.28),
+    0 10px 24px -12px hsl(240 10% 20% / 0.18);
+}
+
+.shadow-g-tile {
+  box-shadow: 0 4px 16px -6px hsl(240 10% 20% / 0.12);
+}
+
+.shadow-g-primary {
+  box-shadow: 0 12px 28px -12px hsl(252 80% 58% / 0.55);
+}
+
+.font-display,
+.font-body {
+  font-family: "Poppins", system-ui, sans-serif;
+}
+
+.text-racing-red {
+  color: hsl(352 84% 58%);
+}
+
+.bg-racing-red {
+  background-color: hsl(352 84% 58%);
+}

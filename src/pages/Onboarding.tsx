@@ -4,6 +4,7 @@ import { ChevronRight, Gift, ShieldCheck, CheckCircle2, Zap } from "lucide-react
 import { useBrands } from "@/hooks/useBrands";
 
 const FALLBACK = "/brand-placeholder.png";
+const ONBOARDING_KEY = "g360_onboarding_v3";
 
 type Screen = "splash" | "welcome" | "onb1" | "onb2" | "onb3";
 
@@ -248,7 +249,7 @@ export default function Onboarding() {
   }, [screen]);
 
   const finish = () => {
-    localStorage.setItem("g360_onboarding_v2", "true");
+    localStorage.setItem(ONBOARDING_KEY, "true");
     window.location.reload();
   };
 

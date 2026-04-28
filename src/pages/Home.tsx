@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
 import { useLocation } from "wouter";
-import { Bell, Eye, EyeOff, Gift, Send, ScanLine, UserPlus, Sparkles, CreditCard, ChevronRight, Crown, Wifi, TrendingUp, Wallet, Plus, Search } from "lucide-react";
+import { Bell, Eye, EyeOff, Gift, Send, ScanLine, UserPlus, Sparkles, CreditCard, ChevronRight, Crown, Wifi, TrendingUp, Wallet, Plus, Search, LogIn } from "lucide-react";
 import { useAuthContext } from "@/contexts/AuthContext";
 import { useFetchWallet } from "@/hooks/useFetchWallet";
 import { useBrands } from "@/hooks/useBrands";
@@ -12,7 +12,7 @@ import QuickBuyModal from "@/components/QuickBuyModal";
 import type { Brand } from "@/types/brand";
 
 const FALLBACK = "/brand-placeholder.png";
-const ONBOARDING_KEY = "g360_onboarding_v2";
+const ONBOARDING_KEY = "g360_onboarding_v3";
 
 function getBrandImg(b: any): string | null {
   return b?.Images?.text || b?.Images?.thumbnail || b?.Images?.featured || b?.Images?.base || null;
@@ -79,8 +79,11 @@ export default function Home() {
         {/* ── Header row ── */}
         <div className="flex items-center justify-between px-6 pt-5 pb-5 anim-fade-up">
           <div className="flex items-center gap-3">
-            <button onClick={() => setLocation("/profile")}
-              className="relative w-11 h-11 rounded-full active:scale-95 transition-transform">
+            <button
+              onClick={() => setLocation(isAuthenticated ? "/profile" : "/login")}
+              className="relative w-11 h-11 rounded-full active:scale-95 transition-transform"
+              aria-label={isAuthenticated ? "Open profile" : "Open login"}
+            >
               <span className="absolute -inset-[2px] rounded-full bg-gold-gradient" />
               <span className="relative w-full h-full rounded-full bg-gradient-to-br from-amber-300 to-orange-500 text-amber-950 flex items-center justify-center font-bold text-[15px]">
                 {initials}
@@ -96,6 +99,23 @@ export default function Home() {
             </div>
           </div>
           <div className="flex items-center gap-2">
+            {!isAuthenticated && (
+              <button
+                onClick={() => setLocation("/login")}
+                className="h-10 px-3 rounded-full bg-gold-gradient text-amber-950 text-[12px] font-bold flex items-center gap-1 active:scale-95 transition-transform"
+              >
+                <LogIn className="w-3.5 h-3.5" strokeWidth={2.4} />
+                Login
+              </button>
+            )}
+            {isAuthenticated && (
+              <button
+                onClick={() => setLocation("/profile")}
+                className="h-10 px-3 rounded-full bg-white/8 border border-white/15 backdrop-blur text-white/90 text-[12px] font-semibold active:scale-95 transition-transform"
+              >
+                Profile
+              </button>
+            )}
             <button className="w-10 h-10 rounded-full bg-white/8 border border-white/15 backdrop-blur flex items-center justify-center active:scale-95 transition-transform">
               <Sparkles className="w-[18px] h-[18px] text-white/85" strokeWidth={2} />
             </button>
@@ -283,6 +303,14 @@ export default function Home() {
           <button onClick={() => setLocation("/brands")} className="mt-4 w-full px-4 py-2 rounded-full bg-gold-gradient text-amber-950 text-[13px] font-bold shadow-soft active:scale-[0.98] transition-transform flex items-center justify-center gap-1">
             Start Gifting <ChevronRight className="w-4 h-4" />
           </button>
+          {!isAuthenticated && (
+            <button
+              onClick={() => setLocation("/login")}
+              className="mt-3 w-full px-4 py-2 rounded-full bg-white/10 border border-white/20 text-white text-[13px] font-semibold active:scale-[0.98] transition-transform flex items-center justify-center gap-1"
+            >
+              Login / Register <ChevronRight className="w-4 h-4" />
+            </button>
+          )}
         </div>
 
         {/* ── Recommended ── */}

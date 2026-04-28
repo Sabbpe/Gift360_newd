@@ -39,16 +39,18 @@ import FAQPage from "./pages/FAQPage";
 import LoginIssues from "./pages/LoginIssues";
 import BulkPurchase from "./pages/BulkPurchase";
 
+const ONBOARDING_KEY = "g360_onboarding_v3";
+
 function AppRoutes() {
   const [location] = useLocation();
   const [onboardingComplete, setOnboardingComplete] = useState(
-    () => localStorage.getItem("g360_onboarding_v2") === "true"
+    () => localStorage.getItem(ONBOARDING_KEY) === "true"
   );
 
   // Listen for localStorage changes and location changes
   useEffect(() => {
     const checkOnboarding = () => {
-      setOnboardingComplete(localStorage.getItem("g360_onboarding_v2") === "true");
+      setOnboardingComplete(localStorage.getItem(ONBOARDING_KEY) === "true");
     };
 
     // Check on every location change
