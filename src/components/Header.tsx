@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef, useMemo } from "react";
 import { Link, useLocation } from "wouter";
-import { ShoppingCart, Search, Sun, Moon, MapPin, Package, ChevronDown, Bell, User } from "lucide-react";
+import { ShoppingCart, Search, Sun, Moon, MapPin, Package, ChevronDown, Bell, User, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useCart } from "@/hooks/useCart";
@@ -27,7 +27,7 @@ async function fetchLocationsByPincode(pincode: string): Promise<PostOffice[]> {
 
 export default function Header() {
   const { config } = useConfig();
-  const { user, isAuthenticated } = useAuthContext();
+  const { user, isAuthenticated, logout: contextLogout } = useAuthContext();
   const { totalItems } = useCart(user?.clientId);
   const { data: walletData } = useFetchWallet(user?.clientId);
   const walletPoints = walletData?.totalBalance ?? 0;
@@ -44,6 +44,12 @@ export default function Header() {
   const searchInputRef = useRef<HTMLInputElement>(null);
   const suggestionsRef = useRef<HTMLDivElement>(null);
   const { data: brands = [] } = useBrandNames();
+
+  const handleQuickLogout = () => {
+    contextLogout();
+    localStorage.removeItem("shopping_cart");
+    setLocation("/login");
+  };
 
   const navLinks = [
     { href: "/", label: "Home" },
@@ -222,6 +228,9 @@ export default function Header() {
                         <Link href="/orders"><button className="px-4 py-3 text-left text-sm font-semibold rounded-xl hover:bg-primary/8 w-full flex items-center gap-2"><Package size={16}/>Orders</button></Link>
                         <Link href="/notifications"><button className="px-4 py-3 text-left text-sm font-semibold rounded-xl hover:bg-primary/8 w-full flex items-center gap-2"><Bell size={16}/>Notifications</button></Link>
                         <Link href="/profile"><button className="px-4 py-3 text-left text-sm font-semibold rounded-xl hover:bg-primary/8 w-full flex items-center gap-2"><User size={16}/>Profile</button></Link>
+                        <button onClick={handleQuickLogout} className="px-4 py-3 text-left text-sm font-semibold rounded-xl hover:bg-primary/8 w-full flex items-center gap-2">
+                          <LogOut size={16}/>Logout
+                        </button>
                       </>
                     )}
                     <div className="mt-4 pt-4 border-t border-border">

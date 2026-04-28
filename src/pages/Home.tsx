@@ -1,6 +1,8 @@
 import { useState, useEffect, useMemo } from "react";
 import { useLocation } from "wouter";
-import { Bell, Eye, EyeOff, Gift, Send, ScanLine, UserPlus, Sparkles, CreditCard, ChevronRight, Crown, Wifi, TrendingUp, Wallet, Plus, Search, LogIn } from "lucide-react";
+import { Bell, Eye, EyeOff, Gift, Send, ScanLine, UserPlus, Sparkles, CreditCard, ChevronRight, Crown, Wifi, TrendingUp, Wallet, Plus, Search, LogIn, LogOut } from "lucide-react";
+import { useLogout } from "@/hooks/useLogout";
+import { useToast } from "@/hooks/use-toast";
 import { useAuthContext } from "@/contexts/AuthContext";
 import { useFetchWallet } from "@/hooks/useFetchWallet";
 import { useBrands } from "@/hooks/useBrands";
@@ -20,7 +22,7 @@ function getBrandImg(b: any): string | null {
 
 export default function Home() {
   const [, setLocation] = useLocation();
-  const { user, isAuthenticated } = useAuthContext();
+  const { user, isAuthenticated, logout: contextLogout } = useAuthContext();
   const { data: walletData } = useFetchWallet(user?.clientId);
   const { data: brandsRaw = [] } = useBrands();
   const { data: brandNames = [] } = useBrandNames();
@@ -28,6 +30,8 @@ export default function Home() {
   const [search, setSearch] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [quickBuyBrand, setQuickBuyBrand] = useState<Brand | null>(null);
+  const logoutMutation = useLogout();
+  const { toast } = useToast();
 
   const walletBalance = walletData?.totalBalance ?? 0;
   const firstName = user?.name?.split(" ")[0] || "there";
@@ -54,6 +58,32 @@ export default function Home() {
     const q = search.toLowerCase();
     return (brandNames as any[]).filter(b => (b.BrandName || "").toLowerCase().includes(q)).slice(0, 8);
   }, [brandNames, search]);
+
+  const handleLogout = () => {
+    if (!user?.token) {
+      contextLogout();
+      localStorage.removeItem("shopping_cart");
+      setLocation("/login");
+      return;
+    }
+
+    logoutMutation.mutate(
+      { token: user.token },
+      {
+        onSuccess: (msg) => {
+          contextLogout();
+          localStorage.removeItem("shopping_cart");
+          toast({ title: "Logged out", description: msg, duration: 3000 });
+          setLocation("/login");
+        },
+        onError: () => {
+          contextLogout();
+          localStorage.removeItem("shopping_cart");
+          setLocation("/login");
+        },
+      }
+    );
+  };
 
   return (
     <div className="relative bg-background min-h-screen pb-20">
@@ -109,12 +139,22 @@ export default function Home() {
               </button>
             )}
             {isAuthenticated && (
-              <button
-                onClick={() => setLocation("/profile")}
-                className="h-10 px-3 rounded-full bg-white/8 border border-white/15 backdrop-blur text-white/90 text-[12px] font-semibold active:scale-95 transition-transform"
-              >
-                Profile
-              </button>
+              <>
+                <button
+                  onClick={() => setLocation("/profile")}
+                  className="h-10 px-3 rounded-full bg-white/8 border border-white/15 backdrop-blur text-white/90 text-[12px] font-semibold active:scale-95 transition-transform"
+                >
+                  Profile
+                </button>
+                <button
+                  onClick={handleLogout}
+                  disabled={logoutMutation.isPending}
+                  className="h-10 px-3 rounded-full bg-white/8 border border-white/15 backdrop-blur text-white/90 text-[12px] font-semibold flex items-center gap-1 active:scale-95 transition-transform disabled:opacity-60"
+                >
+                  <LogOut className="w-3.5 h-3.5" strokeWidth={2.2} />
+                  {logoutMutation.isPending ? "..." : "Logout"}
+                </button>
+              </>
             )}
             <button className="w-10 h-10 rounded-full bg-white/8 border border-white/15 backdrop-blur flex items-center justify-center active:scale-95 transition-transform">
               <Sparkles className="w-[18px] h-[18px] text-white/85" strokeWidth={2} />
